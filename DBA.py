@@ -13,8 +13,8 @@ import urllib
 import cv2 as cv
 import pytesseract
 
-#this should be your path to tesseract.exe
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Timothy Lee\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+#this should be your path to tesseract.exe (Change between '')
+pytesseract.pytesseract.tesseract_cmd = r''
 
 outputFrame = None
 
