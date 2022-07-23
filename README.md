@@ -19,3 +19,5 @@ Change Line 17 of DBA.py to the file path of your pytesseract
 
 To run the program use this:
 python DBA.py --ip 0.0.0.0 --port 8000
+
+Youtube video with thorough explanation: https://www.youtube.com/watch?v=pYKTyEhTmjY
