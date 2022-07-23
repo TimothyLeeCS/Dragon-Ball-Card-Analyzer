@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Dragon Ball Card Analyzer</title>
+  </head>
+  <body>
+    <h1>Dragon Ball Card Analyzer</h1>
+    <img src="{{ url_for('video_feed') }}">
+    <br>
+    <button type ="button"><a href="/btn_click">Submit</a></button>
+    <br><br>
+    <label for="nameCheck">If you want to input your card's name, do so here:</label>
+    <br>
+    <form method ="POST">
+      <input name ="CardName">
+      <input type ="submit">
+    </form>
+  </body>
+</html>
